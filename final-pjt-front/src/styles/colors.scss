@@ -1,0 +1,23 @@
+// 기본 색상 변수 정의
+// $colors: (
+//   primary: #b8af65,  // 달팽이 먹는 연두색 (주요 색상)
+//   secondary: #fbe8a6, // 캐릭터에서 따온 부드러운 노란색 (보조 색상)
+//   accent: #d4a373,    // 따뜻한 브라운 (포인트 색상)
+//   background: #f4f7f6,  // 배경색 (연한 회색)
+//   text-primary: #333333,  // 글자 색 (어두운 회색)
+//   text-secondary: #666666,  // 부드러운 회색
+// );
+
+$colors: (
+  primary: #f7dd7f,  // 부드러운 노란색 (주요 색상)
+  secondary: #f4f7f6, // 아이보리/밝은 회색 (보조 색상)
+  accent: #b8af65,    // 연두색 (포인트 색상)
+  background: #fdf6e3,  // 오트밀 색상 (배경)
+  text-primary: #333333,  // 어두운 회색 (글자 기본 색상)
+  text-secondary: #666666,  // 부드러운 회색 (보조 텍스트)
+);
+
+
+// 강조 색상
+$highlight: #aad17f;  // 버튼 강조 색상 (밝은 연두색)
+$hover: #9ccf89;  // 버튼 호버 색상

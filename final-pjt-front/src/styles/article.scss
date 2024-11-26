@@ -1,0 +1,21 @@
+@import "@/styles/colors.scss";
+
+.article-wrapper {
+  background-color: #f4f7f6;
+}
+
+.article-header {
+  color: map-get($colors, text-primary);
+}
+
+.article-description {
+  color: map-get($colors, text-secondary);
+}
+
+.article-btn {
+  background-color: map-get($colors, primary);
+
+  &:hover {
+    background-color: $highlight;
+  }
+}
